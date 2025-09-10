@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prelims Part 2 </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>PRELIMS PART 2</h1>
+            <p class="subtitle">Complete all 15</p>
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill"></div>
+                </div>
+                <span id="progress-text">Step 1/15</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div id="message-display" class="message-display">Welcome! Start by creating an account.</div>
+
+            <!-- Dynamic Form Container -->
+            <section id="current-step" class="step-section active">
+                <h2 id="step-title">Step 1: Create Account</h2>
+                <form id="main-form" class="form">
+                    <input type="text" id="username" placeholder="username (your surname)" required>
+                    <input type="password" id="password" placeholder="password (not real password)" required>
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+                <div id="action-buttons" class="action-buttons"></div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Base Url: https://prelim-exam.onrender.com</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
